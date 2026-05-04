@@ -1,0 +1,49 @@
+ <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Smallpin Logistics — Legal</title>
+  <style>
+    :root { --bg: #0f1419; --card: #1a2332; --text: #e7ecf3; --muted: #9aa8bc; --accent: #3b82f6; }
+    * { box-sizing: border-box; }
+    body { margin: 0; font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; min-height: 100vh; }
+    .wrap { max-width: 640px; margin: 0 auto; padding: 2rem 1.25rem; }
+    h1 { font-size: 1.5rem; font-weight: 700; margin: 0 0 0.5rem; }
+    p { color: var(--muted); margin: 0 0 1rem; }
+    .card { background: var(--card); border-radius: 12px; padding: 1.5rem; margin: 1.5rem 0; border: 1px solid rgba(255,255,255,.06); }
+    a.btn { display: inline-block; background: var(--accent); color: #fff; text-decoration: none; padding: 0.75rem 1.25rem; border-radius: 8px; font-weight: 600; }
+    a.btn:hover { filter: brightness(1.08); }
+    .steps { font-size: 0.9rem; color: var(--muted); }
+    .steps ol { padding-left: 1.25rem; }
+    .steps code { background: rgba(0,0,0,.35); padding: 0.1em 0.35em; border-radius: 4px; font-size: 0.85em; }
+    footer { margin-top: 2rem; font-size: 0.8rem; color: var(--muted); }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <h1>Smallpin Logistics</h1>
+    <p>Static pages for Google Play transparency and user trust.</p>
+
+    <div class="card">
+      <p style="margin-bottom: 1rem;"><strong>Privacy policy</strong> — how the app handles data (camera, location, and related permissions).</p>
+      <a class="btn" href="privacy-policy.html">View privacy policy</a>
+    </div>
+
+    <div class="card steps">
+      <strong style="color: var(--text);">Enable GitHub Pages</strong>
+      <ol>
+        <li>Push the <code>docs/</code> folder to your default branch (e.g. <code>main</code>).</li>
+        <li>Open the repository on GitHub → <strong>Settings</strong> → <strong>Pages</strong>.</li>
+        <li>Under <strong>Build and deployment</strong>, set Source to <strong>Deploy from a branch</strong>.</li>
+        <li>Choose Branch: <code>main</code>, Folder: <code>/docs</code> → Save.</li>
+        <li>After a few minutes, a URL like <code>https://&lt;username&gt;.github.io/&lt;repo&gt;/privacy-policy.html</code> will be live.</li>
+        <li>Paste that privacy policy URL in Play Console → <strong>App content</strong> → <strong>Privacy policy</strong>.</li>
+      </ol>
+      <p style="margin: 1rem 0 0;">Before publishing: replace the placeholder contact email in <code>privacy-policy.html</code> (Contact section).</p>
+    </div>
+
+    <footer>Draft — align wording with your real operations and the <strong>Data safety</strong> section in Play Console.</footer>
+  </div>
+</body>
+</html>
